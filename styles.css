@@ -1,0 +1,192 @@
+/* Стилизация всей страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Нежно голубой фон */
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок в шапке */
+header {
+    background-color: #6495ED; /* Голубой цвет для шапки */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Стилизация списка иконок */
+.icon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list li {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.icon-list img {
+    max-width: 100px; /* Размер иконки, можно настроить по вашему усмотрению */
+}
+
+/* Стилизация кнопок с иконками */
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #6495ED; /* Голубой цвет для кнопок */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button img {
+    max-width: 30px; /* Размер иконки на кнопке, можно настроить по вашему усмотрению */
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #4169E1; /* Цвет кнопки при наведении */
+}
+
+
+/* Стилизация кнопок */
+button {
+    background-color: #6495ED; /* Голубой цвет для кнопок */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #4169E1; /* Цвет кнопки при наведении */
+}
+
+/* ... (ваш остальной CSS код) */
+
+/* Стилизация кнопки "Обратная связь" */
+button:last-child {
+    background-color: #6495ED; /* Голубой цвет для кнопки */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:last-child a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button:last-child:hover {
+    background-color: #4169E1; /* Цвет кнопки при наведении */
+}
+/* Стилизация изображений по бокам */
+.left-image, .right-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 20%; /* Ширина изображения по бокам, можно настроить по вашему усмотрению */
+}
+
+.left-image {
+    left: 0;
+}
+
+.right-image {
+    right: 0;
+}
+
+.left-image img, .right-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стилизация фонового изображения */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fon1.jpg); /* Фон по умолчанию */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Остальные стили оставьте без изменений */
+/* ... (ваш остальной CSS код) */
+/* Стилизация списка иконок */
+.icon-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-list li {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.icon-list img {
+    max-width: 100px; /* Размер иконки, можно настроить по вашему усмотрению */
+}
+
+/* Стилизация кнопок навигации */
+.button-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px; /* Отступ снизу */
+}
+
+button {
+    background-color: #6495ED; /* Голубой цвет для кнопок */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button img {
+    max-width: 30px; /* Размер иконки на кнопке, можно настроить по вашему усмотрению */
+    vertical-align: middle;
+}
+
+button:hover {
+    background-color: #4169E1; /* Цвет кнопки при наведении */
+}
+/* Футер */
+footer {
+    background-color: #6495ED; /* Голубой цвет для футера */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
